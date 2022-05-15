@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './mystyle.css'
 import brand from '../staticimag/newfoterlogo.png'
 import appstroe from '../staticimag/app-store.png'
 import googleimg from '../staticimag/googleplay.png'
@@ -6,14 +7,13 @@ import FB from '../staticimag/icon-img/FB.png'
 import Tweet from '../staticimag/icon-img/tweeter.png'
 import insta from '../staticimag/icon-img/tweeter.png'
 import linkdin from '../staticimag/icon-img/linkdin.png'
- 
-class footer extends Component {
+
+class footer2 extends Component {
   render() {
     return (
-      <>
-        <div className='container-fluid background  '>
-          
-        <div style={{width:'100%',height:'auto'}} className='background'>
+     <>
+     <div className=''>
+         <div style={{width:'100%',height:'auto'}} className='background'>
              <div style={{width:'90%'}} className='p-5 m-auto'>
                 <div className='d-flex justify-content-between flex-wrap'>
                      <div className='m-2 pr-5'>
@@ -29,34 +29,35 @@ class footer extends Component {
                         </div>
                     
                      </div>
+
                      <div className=''>
                         <ul class="footer-menu-list">
-                        <li className='text-white text-left line-H'>About Us
+                        <li style={{color:"white"}}>About Us
                         </li>
-                        <li className='text-white text-left line-H'
+                        <li style={{color:"white"}}
                         >Careers
                         </li>
-                        <li className='text-white text-left line-H'
+                        <li style={{color:"white"}}
                         >Help
                         </li>
-                        <li className='text-white text-left line-H'
+                        <li style={{color:"white"}}
                         >Contact Us
                         </li >
-                        <li className='text-white text-left line-H'
+                        <li style={{color:"white"}}
                         >Fee Policy
                         </li>
-                        <li className='text-white text-left line-H'
+                        <li style={{color:"white"}}
                         >Privacy Policy
                         </li>
-                        <li className='text-white text-left line-H'
+                        <li style={{color:"white"}}
                         >Member's Agreement
                         </li>
-                        <li className='text-white text-left line-H'
+                        <li style={{color:"white"}}
                         >Terms and Conditions
                         </li>
                         </ul>
                      </div>
-                    <div className=''>
+                    <div className='m-3'>
                         <h5 className='text-white text-left mb-4'>Download the app</h5>
                         <a className="justify-content-end  " href="#">
                         <img src={appstroe} alt="googleplay" className='w mt-4' />
@@ -66,22 +67,11 @@ class footer extends Component {
                 </div>
              </div>
          </div>
-            
-            <div  style={{width:'80%'}}  className='border-top p-4  m-auto'>
-                <div className='  d-flex justify-content-between'>
-                    <p className='text-white font-weight-light'>Copyright 2022 © Vogo Automotive Pvt. Ltd. All Rights Reservered</p>
-                    <div className=''>
-                        <img className='m-1' style={{width:'10%'}} src={FB} alt="" />
-                        <img className='m-1' style={{width:'10%'}} src={Tweet} alt="" />
-                        <img className='m-1' style={{width:'10%'}} src={insta} alt="" />
-                        <img className='m-1' style={{width:'10%'}} src={linkdin} alt="" />
-                    </div>
-                </div>
-            </div>
-        </div>
-      </>
+         
+     </div>
+     </>
     )
   }
 }
 
-export default footer
+export default footer2

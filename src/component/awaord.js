@@ -8,7 +8,7 @@ class awaord extends Component {
   render() {
     return (
       <>
-      <div className='container-fluid mt-5'>
+      <div className=' mt-5'>
         <div className='position-relative aword-img'>
             <div className='d-flex align-content-center justify-content-center '>
                   <h5 className='text-warning mt-5'>NEWS AND  UPDATES</h5>

@@ -10,12 +10,10 @@ class headerimag extends Component {
       {/* <div className='d-flex flex-row'>
     </div> */}
       <div className='navbar-nav mt-lg-0 d-flex'>
-          {/* <li className='align-itme-start'> */}
-            <a className="justify-content-end  " href="#"><img src={googleimg} alt="googleplay" className='w ml-4' />
-          {/* </li> */}
-          {/* <li className='align-itme-center'> */}
-            <img src={appstroe} alt="appstore" className='w ml-4' /></a>
-          {/* </li> */}
+            <a className="justify-content-end  " href="#">
+              <img src={googleimg} alt="googleplay" className='w ml-4' />
+              <img src={appstroe} alt="appstore" className='w ml-4' />
+            </a>
       </div>
       </>
     )

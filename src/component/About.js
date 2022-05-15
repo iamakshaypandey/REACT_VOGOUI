@@ -8,8 +8,8 @@ class About extends Component {
     return (
     <>
         <div className=' m-0'>
-            <div className='d-flex'>
-                <div className='d-flex'>
+            <div className='d-flex '>
+                <div className='d-flex flex-wrap'>
                     {/* <div className='justify-content-start'> */}
                         <img src={videoimg} className="w-50" alt="" />
                         <div className='text-img'>

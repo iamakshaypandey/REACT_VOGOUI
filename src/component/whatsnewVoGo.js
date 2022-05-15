@@ -20,8 +20,7 @@ class whatsnewVoGo extends Component {
                  </div>
              </div>
              {/* **** */}
-             <div className='d-flex'>
-             <div className='col' >
+             <div className='card-deck'>         
                 <div className="card" >
                     <img className="card-img-top img-w-h" src={whatsvogo1} alt="Card image cap"/>
                     <div className="card-body">
@@ -29,9 +28,7 @@ class whatsnewVoGo extends Component {
                         <p className="card-text text-left">Your Story</p>
                         <p href="#" className="text-warning text-left font-weight-bold">Read More</p>
                     </div>
-                </div>
-             </div>
-             <div className='col' >
+                </div>     
                 <div className="card" >
                     <img className="card-img-top img-w-h" src={whatsvogo2} alt="Card image cap"/>
                     <div className="card-body">
@@ -40,8 +37,6 @@ class whatsnewVoGo extends Component {
                         <p href="#" className="text-warning text-left font-weight-bold">Read More</p>
                     </div>
                 </div>
-             </div>
-             <div className='col' >
                 <div className="card" >
                     <img className="card-img-top img-w-h" src={whatsvogo3} alt="Card image cap"/>
                     <div className="card-body">
@@ -50,7 +45,6 @@ class whatsnewVoGo extends Component {
                         <p href="#" className="text-warning text-left font-weight-bold">Read More</p>
                     </div>
                 </div>
-             </div>
              </div>
          </div>
         </>

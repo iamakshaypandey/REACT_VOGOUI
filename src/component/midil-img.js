@@ -7,7 +7,7 @@ class midilimg extends Component {
         <>
         <div className='mt-5 container  '>
             <div className='row'>
-                <div className='background w-100 col-6'>
+                <div className='background w-100 col'>
                     <div className='font-color'>
                         <h1 className='w-75 text-left m-5 mb-0'>Unlock Hassle-free Commute</h1>
                         <p className='Font-W text-left ml-5'>We are on a mission to equip every commuter with
@@ -22,8 +22,8 @@ class midilimg extends Component {
                          </ul>
                     </div>
                 </div>
-                <div className='col-6'>
-                <img src={whyVogo} className="w-100" alt="whyvogo-img" />
+                <div className='col-6 hidden'>
+                    <img src={whyVogo} className="w-100 h-100" alt="whyvogo-img" />
                 </div>
             </div>
 
