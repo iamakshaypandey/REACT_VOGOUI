@@ -59,10 +59,10 @@ class footer2 extends Component {
                      </div>
                     <div className='m-3'>
                         <h5 className='text-white text-left mb-4'>Download the app</h5>
-                        <a className="justify-content-end  " >
+                        <div className="justify-content-end  " >
                         <img src={appstroe} alt="googleplay" className='w mt-4' />
                         <img src={googleimg} alt="appstore" className='w ml-4 mt-4' />
-                        </a>
+                        </div>
                     </div>
                 </div>
              </div>

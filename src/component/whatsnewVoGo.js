@@ -16,13 +16,13 @@ class whatsnewVoGo extends Component {
                      <h4 className='text-left' > Keep Up with Us</h4>
                  </div>
                  <div className='mr-2'>
-                 <a  className="btn btn-warning font-weight-bold pl-4 pr-4 pt-3 pb-3 m-4">View All</a>
+                 <div  className="btn btn-warning font-weight-bold pl-4 pr-4 pt-3 pb-3 m-4">View All</div>
                  </div>
              </div>
              {/* **** */}
              <div className='card-deck'>         
                 <div className="card" >
-                    <img className="card-img-top img-w-h" src={whatsvogo1} alt="Card image cap"/>
+                    <img className="card-img-top img-w-h" src={whatsvogo1} alt="Card  cap"/>
                     <div className="card-body">
                         <h5 className="card-title text-left">[TechSparks 2021] With new-age customers,India’s D2C sector is...</h5>
                         <p className="card-text text-left">Your Story</p>
@@ -30,7 +30,7 @@ class whatsnewVoGo extends Component {
                     </div>
                 </div>     
                 <div className="card" >
-                    <img className="card-img-top img-w-h" src={whatsvogo2} alt="Card image cap"/>
+                    <img className="card-img-top img-w-h" src={whatsvogo2} alt="Card  cap"/>
                     <div className="card-body">
                         <h5 className="card-title text-left">Riding the technology: The future of urban mobility is now</h5>
                         <p className="card-text text-left">Your Story</p>
@@ -38,7 +38,7 @@ class whatsnewVoGo extends Component {
                     </div>
                 </div>
                 <div className="card" >
-                    <img className="card-img-top img-w-h" src={whatsvogo3} alt="Card image cap"/>
+                    <img className="card-img-top img-w-h" src={whatsvogo3} alt="Card  cap"/>
                     <div className="card-body">
                         <h5 className="card-title text-left">The future of EV recharge: Abhimanyu Goyal</h5>
                         <p className="card-text text-left">MSN</p>
