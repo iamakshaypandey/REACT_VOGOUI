@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, {useState } from 'react'
 import scooter from '../staticimag/scoter.png'
 import scooter2 from '../staticimag/vogo_now.png'
 import './mystyle.css'
@@ -46,7 +46,7 @@ const VogoNow = (props)  => {
                     </li>
                 </ul>
                 <div className="tab-content" id="myTabContent0">
-                {selctedtab == 1 &&   <div className="tab-pane fade show active"
+                {selctedtab === 1 &&   <div className="tab-pane fade show active"
                         id="home0"
                         role="tabpanel"
                         aria-labelledby="home-tab0"
@@ -66,7 +66,7 @@ const VogoNow = (props)  => {
                     </div>} 
                 </div>
                 <div className="tab-content" id="myTabContent0">
-                {selctedtab == 2 &&   <div className="tab-pane fade show active"
+                {selctedtab === 2 &&   <div className="tab-pane fade show active"
                         id="home0"
                         role="tabpanel"
                         aria-labelledby="home-tab0"
