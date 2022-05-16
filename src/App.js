@@ -1,9 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './component/header';
 import Heroimg from './component/heroimg';
 import VogoNow from './component/VogoNow';
-import About from './component/About';
 import MidilImg from './component/midil-img';
 import Redeyscooter from './component/redeyscooter';
 import LocatVogo from './component/locatVogo';
