@@ -16,7 +16,7 @@ class whatsnewVoGo extends Component {
                      <h4 className='text-left' > Keep Up with Us</h4>
                  </div>
                  <div className='mr-2'>
-                 <a href="#" className="btn btn-warning font-weight-bold pl-4 pr-4 pt-3 pb-3 m-4">View All</a>
+                 <a  className="btn btn-warning font-weight-bold pl-4 pr-4 pt-3 pb-3 m-4">View All</a>
                  </div>
              </div>
              {/* **** */}
@@ -26,7 +26,7 @@ class whatsnewVoGo extends Component {
                     <div className="card-body">
                         <h5 className="card-title text-left">[TechSparks 2021] With new-age customers,India’s D2C sector is...</h5>
                         <p className="card-text text-left">Your Story</p>
-                        <p href="#" className="text-warning text-left font-weight-bold">Read More</p>
+                        <p  className="text-warning text-left font-weight-bold">Read More</p>
                     </div>
                 </div>     
                 <div className="card" >
@@ -34,7 +34,7 @@ class whatsnewVoGo extends Component {
                     <div className="card-body">
                         <h5 className="card-title text-left">Riding the technology: The future of urban mobility is now</h5>
                         <p className="card-text text-left">Your Story</p>
-                        <p href="#" className="text-warning text-left font-weight-bold">Read More</p>
+                        <p  className="text-warning text-left font-weight-bold">Read More</p>
                     </div>
                 </div>
                 <div className="card" >
@@ -42,7 +42,7 @@ class whatsnewVoGo extends Component {
                     <div className="card-body">
                         <h5 className="card-title text-left">The future of EV recharge: Abhimanyu Goyal</h5>
                         <p className="card-text text-left">MSN</p>
-                        <p href="#" className="text-warning text-left font-weight-bold">Read More</p>
+                        <p  className="text-warning text-left font-weight-bold">Read More</p>
                     </div>
                 </div>
              </div>

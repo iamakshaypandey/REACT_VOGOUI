@@ -14,16 +14,16 @@ class header extends Component {
             <div className='d-flex '>
                 <ul className="navbar-nav justify-content-end col-auto p-2  ml-5 mt-2 mt-lg-0">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">About Us <span className="sr-only">(current)</span></a>
+                        <a className="nav-link" >About Us <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Careers</a>
+                        <a className="nav-link" >Careers</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Help</a>
+                        <a className="nav-link" >Help</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Contact Us</a>
+                        <a className="nav-link" >Contact Us</a>
                     </li>
                 </ul>
                 <Headerimag/>

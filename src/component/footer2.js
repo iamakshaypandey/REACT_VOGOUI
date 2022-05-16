@@ -18,7 +18,7 @@ class footer2 extends Component {
                 <div className='d-flex justify-content-between flex-wrap'>
                      <div className='m-2 pr-5'>
                         <div className='d-flex'>
-                            <img style={{width:'8rem'}} src={brand} alt="" />
+                            <img style={{width:'8rem'}} src={brand} alt="imges" />
                         </div>
                         <div className=''>
                         <p style={{fontSize:'0.7rem'}} className='text-white mt-4 text-left'>Is just a Vogo ride away. Take control of your journey today</p>
@@ -59,7 +59,7 @@ class footer2 extends Component {
                      </div>
                     <div className='m-3'>
                         <h5 className='text-white text-left mb-4'>Download the app</h5>
-                        <a className="justify-content-end  " href="#">
+                        <a className="justify-content-end  " >
                         <img src={appstroe} alt="googleplay" className='w mt-4' />
                         <img src={googleimg} alt="appstore" className='w ml-4 mt-4' />
                         </a>

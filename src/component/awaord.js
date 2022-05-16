@@ -18,7 +18,7 @@ class awaord extends Component {
                 <div  className="col ">
                     <div className="card card-block">
                         <div className=''>
-                          <img style={{width:'40%',height:'80%',margin:"auto"}} src={aword1} className='rounded mt-4' alt="" />
+                          <img style={{width:'40%',height:'80%',margin:"auto"}} src={aword1} className='rounded mt-4' alt="imges" />
                         </div>
                         <div className='mt-4'>
                             <h4>Young Entrepreneur Award</h4>
@@ -29,7 +29,7 @@ class awaord extends Component {
                 <div  className="col ">
                     <div className="card card-block">
                         <div className=''>
-                          <img style={{width:'40%',height:'80%',margin:"auto"}} src={aword1} className='rounded mt-4' alt="" />
+                          <img style={{width:'40%',height:'80%',margin:"auto"}} src={aword1} className='rounded mt-4' alt="imges" />
                         </div>
                         <div className='mt-4'>
                             <h4>40 Under 40 Club of Achievers</h4>
@@ -40,7 +40,7 @@ class awaord extends Component {
                 <div  className="col ">
                     <div className="card card-block">
                         <div className=''>
-                          <img style={{width:'40%',height:'80%',margin:"auto"}} src={aword2} className='rounded mt-4' alt="" />
+                          <img style={{width:'40%',height:'80%',margin:"auto"}} src={aword2} className='rounded mt-4' alt="imges" />
                         </div>
                         <div className='mt-5'>
                             <h4>Mobility Start-up of the Year</h4>

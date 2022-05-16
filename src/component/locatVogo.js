@@ -28,7 +28,7 @@ class locatVogo extends Component {
                 </div>
               </div>
           <div className='position-absolute-2 d-flex ml-4'>
-              <img src={dowonlodapp} className="img-w ml-4 hidden " alt="" />
+              <img src={dowonlodapp} className="img-w ml-4 hidden " alt="imges" />
           </div>
           </div>
       </section>

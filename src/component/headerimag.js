@@ -8,7 +8,7 @@ class headerimag extends Component {
     return (
       <>
       <div className='navbar-nav mt-lg-0 d-flex'>
-            <a className="justify-content-end  " href="#">
+            <a className="justify-content-end  " >
               <img src={googleimg} alt="googleplay" className='w ml-4' />
               <img src={appstroe} alt="appstore" className='w ml-4' />
             </a>

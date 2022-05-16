@@ -10,7 +10,7 @@ class About extends Component {
         <div className=' m-0'>
             <div className='d-flex '>
                 <div className='d-flex flex-wrap'>
-                        <img src={videoimg} className="w-50" alt="" />
+                        <img src={videoimg} className="w-50" alt="imges" />
                         <div className='text-img'>
                         </div>
                     <div className='ml-5'>

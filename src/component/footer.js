@@ -18,7 +18,7 @@ class footer extends Component {
                 <div className='d-flex justify-content-between flex-wrap'>
                      <div className='m-2 pr-5'>
                         <div className='d-flex'>
-                            <img style={{width:'8rem'}} src={brand} alt="" />
+                            <img style={{width:'8rem'}} src={brand} alt="imges" />
                         </div>
                         <div className=''>
                         <p style={{fontSize:'0.7rem'}} className='text-white mt-4 text-left'>Is just a Vogo ride away. Take control of your journey today</p>
@@ -58,10 +58,10 @@ class footer extends Component {
                      </div>
                     <div className=''>
                         <h5 className='text-white text-left mb-4'>Download the app</h5>
-                        <a className="justify-content-end  " href="#">
+                        <div className="justify-content-end  ">
                         <img src={appstroe} alt="googleplay" className='w mt-4' />
                         <img src={googleimg} alt="appstore" className='w ml-4 mt-4' />
-                        </a>
+                        </div>
                     </div>
                 </div>
              </div>
@@ -71,10 +71,10 @@ class footer extends Component {
                 <div className='  d-flex justify-content-between'>
                     <p className='text-white font-weight-light'>Copyright 2022 © Vogo Automotive Pvt. Ltd. All Rights Reservered</p>
                     <div className=''>
-                        <img className='m-1' style={{width:'10%'}} src={FB} alt="" />
-                        <img className='m-1' style={{width:'10%'}} src={Tweet} alt="" />
-                        <img className='m-1' style={{width:'10%'}} src={insta} alt="" />
-                        <img className='m-1' style={{width:'10%'}} src={linkdin} alt="" />
+                        <img className='m-1' style={{width:'10%'}} src={FB} alt="imges" />
+                        <img className='m-1' style={{width:'10%'}} src={Tweet} alt="imges" />
+                        <img className='m-1' style={{width:'10%'}} src={insta} alt="imges" />
+                        <img className='m-1' style={{width:'10%'}} src={linkdin} alt="imges" />
                     </div>
                 </div>
             </div>
