@@ -11,12 +11,12 @@ class whatsnewVoGo extends Component {
         <>
          <div className='mt container'>
              <div className='d-flex justify-content-between mb-3'>
-                 <div class="d-flex flex-column ml-4">
+                 <div className="d-flex flex-column ml-4">
                      <h6 className='text-danger'>WHAT'S  NEW  IN  VOGO </h6>
                      <h4 className='text-left' > Keep Up with Us</h4>
                  </div>
                  <div className='mr-2'>
-                 <a href="#" class="btn btn-warning font-weight-bold pl-4 pr-4 pt-3 pb-3 m-4">View All</a>
+                 <a href="#" className="btn btn-warning font-weight-bold pl-4 pr-4 pt-3 pb-3 m-4">View All</a>
                  </div>
              </div>
              {/* **** */}

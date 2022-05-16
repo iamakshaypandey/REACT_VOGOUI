@@ -30,7 +30,7 @@ class footer extends Component {
                     
                      </div>
                      <div className=''>
-                        <ul class="footer-menu-list">
+                        <ul className="footer-menu-list">
                         <li className='text-white text-left line-H'>About Us
                         </li>
                         <li className='text-white text-left line-H'

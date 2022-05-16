@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import awordimg from '../staticimag/awards-background.png'
 import aword1 from '../staticimag/aword1.png'
 import aword2 from '../staticimag/aword2.png'
 
@@ -15,9 +14,9 @@ class awaord extends Component {
             </div>
             <h2 className='text-white'>Featured Awards & Industry Recognition</h2>
             <div style={{width:'80%',height:'80%',margin:"auto"}} className=''>
-                <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">	
-                <div  class="col ">
-                    <div class="card card-block">
+                <div className="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">	
+                <div  className="col ">
+                    <div className="card card-block">
                         <div className=''>
                           <img style={{width:'40%',height:'80%',margin:"auto"}} src={aword1} className='rounded mt-4' alt="" />
                         </div>
@@ -27,8 +26,8 @@ class awaord extends Component {
                         </div>
                     </div>
                 </div>
-                <div  class="col ">
-                    <div class="card card-block">
+                <div  className="col ">
+                    <div className="card card-block">
                         <div className=''>
                           <img style={{width:'40%',height:'80%',margin:"auto"}} src={aword1} className='rounded mt-4' alt="" />
                         </div>
@@ -38,8 +37,8 @@ class awaord extends Component {
                         </div>
                     </div>
                 </div>
-                <div  class="col ">
-                    <div class="card card-block">
+                <div  className="col ">
+                    <div className="card card-block">
                         <div className=''>
                           <img style={{width:'40%',height:'80%',margin:"auto"}} src={aword2} className='rounded mt-4' alt="" />
                         </div>

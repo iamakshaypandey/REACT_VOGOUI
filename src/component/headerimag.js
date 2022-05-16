@@ -7,8 +7,6 @@ class headerimag extends Component {
   render() {
     return (
       <>
-      {/* <div className='d-flex flex-row'>
-    </div> */}
       <div className='navbar-nav mt-lg-0 d-flex'>
             <a className="justify-content-end  " href="#">
               <img src={googleimg} alt="googleplay" className='w ml-4' />

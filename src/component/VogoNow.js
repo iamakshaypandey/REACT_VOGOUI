@@ -8,7 +8,7 @@ const VogoNow = (props)  => {
 
     const [selctedtab, SetSelectedTab] = useState(1);
 
-    console.log(selctedtab, "selctedtabselctedtab");
+    // console.log(selctedtab, "selctedtabselctedtab");
 
     return <>
         <div className='container'>
@@ -58,7 +58,7 @@ const VogoNow = (props)  => {
                             Pay as you GO. Ideal for short trips: work/college commute and errand   runs.
                             </p>
                             <div className='d-flex'>
-                            <button type="button" class="btn btn-warning heading-img-button">Downlod Our App</button>
+                            <button type="button" className="btn btn-warning heading-img-button">Downlod Our App</button>
                             </div>
                         </div>
                             <img src={scooter} className="w-25 ml-auto" alt="scooter-img" />
@@ -80,7 +80,7 @@ const VogoNow = (props)  => {
 
                             </p>
                             <div className='d-flex'>
-                            <button type="button" class="btn btn-warning heading-img-button">Book Now</button>
+                            <button type="button" className="btn btn-warning heading-img-button">Book Now</button>
                             </div>
                         </div>
                             <img src={scooter2} className="w-25 ml-auto" alt="scooter-img" />

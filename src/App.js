@@ -21,7 +21,6 @@ function App() {
       <Heroimg/>
       <VogoNow/>
       <NewAbout/>
-      {/* <About/> */}
       <MidilImg/>
       <Redeyscooter/>
       <LocatVogo/>

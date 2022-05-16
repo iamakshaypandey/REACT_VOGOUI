@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    /* border: 1px solid black; */
 
 }
 .background-img{
@@ -24,7 +23,7 @@ button:active{
 
 .position-absolute{
     top:10rem !important;
-    /* bottom: 4rem !important; */
+
 }
 
 .position-absolute-2{
@@ -36,7 +35,6 @@ button:active{
 .position-absolute{
     top:8rem !important;
     overflow: hidden;
-    /* bottom: 4rem !important; */
 }
 .img-w{
     width: 23% !important;
@@ -111,9 +109,7 @@ button:active{
 	background-size: cover;
 	transition: all 0.2s ease-in-out !important;
 	border-radius: 10px;
-    /* transform: translateY(-5px); */
-    /* box-shadow: none; */
-    /* opacity: 0.9; */
+
 }
 
 

@@ -31,7 +31,7 @@ class footer2 extends Component {
                      </div>
 
                      <div className=''>
-                        <ul class="footer-menu-list">
+                        <ul className="footer-menu-list">
                         <li style={{color:"white"}}>About Us
                         </li>
                         <li style={{color:"white"}}

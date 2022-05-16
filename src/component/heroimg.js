@@ -10,7 +10,6 @@ class heroimg extends Component {
     <div className=''>
       <div className='background-img'>
           <Insideheroimg/>
-          {/* <Insideheroimgpart/> */}
       </div>
     </div>
       </>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './mystyle.css'
-// importsh
+
 
 class custumerfeedback extends Component {
   render() {
@@ -13,9 +13,9 @@ class custumerfeedback extends Component {
                 <h2 className='text-white'>Testimonials That  Drive <br /> US ForWard</h2>
             </div>  
             <div style={{width:'80%',height:'80%',marginLeft:"6rem"}} className='position-absolute hidden '>
-            <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">	
-			<div  class="col ">
-				<div class="card card-block">
+            <div className="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">	
+			<div  className="col ">
+				<div className="card card-block">
                     <div className='d-flex'>
                         <p className='font-italic'>
                         Ultimately the best app for rental services So well maintained bikes and
@@ -36,8 +36,8 @@ class custumerfeedback extends Component {
                     </div>
                 </div>
 			</div>
-			<div class="col">
-				<div class="card card-block">
+			<div className="col">
+				<div className="card card-block">
                 <div className='d-flex'>
                         <p className='font-italic'>
                         Ultimately the best app for rental services So well maintained bikes and
@@ -58,8 +58,8 @@ class custumerfeedback extends Component {
                     </div>
                 </div>
 			</div>
-			<div class="col">
-				<div class="card card-block ">
+			<div className="col">
+				<div className="card card-block ">
                 <div className='d-flex'>
                         <p className='font-italic'>
                         Ultimately the best app for rental services So well maintained bikes and
@@ -80,8 +80,8 @@ class custumerfeedback extends Component {
                     </div>
                 </div>
 			</div>
-			<div class="col">
-				<div class="card card-block ">
+			<div className="col">
+				<div className="card card-block ">
                 <div className='d-flex'>
                         <p className='font-italic'>
                         Ultimately the best app for rental services So well maintained bikes and
@@ -102,8 +102,8 @@ class custumerfeedback extends Component {
                     </div>
                 </div>
 			</div>
-			<div class="col">
-				<div class="card card-block ">
+			<div className="col">
+				<div className="card card-block ">
                 <div className='d-flex'>
                         <p className='font-italic'>
                         Ultimately the best app for rental services So well maintained bikes and
@@ -124,8 +124,8 @@ class custumerfeedback extends Component {
                     </div>
                 </div>
 			</div>
-			<div class="col">
-				<div class="card card-block ">
+			<div className="col">
+				<div className="card card-block ">
                 <div className='d-flex'>
                         <p className='font-italic'>
                         Ultimately the best app for rental services So well maintained bikes and

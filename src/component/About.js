@@ -10,11 +10,9 @@ class About extends Component {
         <div className=' m-0'>
             <div className='d-flex '>
                 <div className='d-flex flex-wrap'>
-                    {/* <div className='justify-content-start'> */}
                         <img src={videoimg} className="w-50" alt="" />
                         <div className='text-img'>
                         </div>
-                    {/* </div> */}
                     <div className='ml-5'>
                         <h5 className='text-left text-secondary'>ABOUT US</h5>
                         <div className='mt-4'>
